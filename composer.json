@@ -1,0 +1,14 @@
+{
+    "name": "aston/cart",
+    "description": "Shoppring cart",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "nicolas lou",
+            "email": "nicolas.louadoudi@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
