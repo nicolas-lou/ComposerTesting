@@ -9,6 +9,14 @@
             "email": "nicolas.louadoudi@gmail.com"
         }
     ],
+    "scripts": {
+        "server": "php -S localhost:3000/testing -docroot"
+    },
+    "autoload": {
+        "psr-4": {
+            "Aston\\": "src/Aston"
+        }
+    },
     "minimum-stability": "dev",
     "require": {}
 }
