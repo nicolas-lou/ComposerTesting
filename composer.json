@@ -28,7 +28,8 @@
         "Aston\\": "test/Aston"
     }
   },
-  "minimum-stability": "stable",
+  "minimum-stability": "dev",
+  "prefer-stable": true,
   "repositories": [{
     "type": "git",
     "url": "https://github.com/nicolas-lou/ComposerTesting"
