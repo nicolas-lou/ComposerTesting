@@ -10,7 +10,12 @@
         }
     ],
     "scripts": {
-        "server": "php -S localhost:3000/testing -docroot &"
+        "server": "php -S localhost:3000/testing -docroot &",
+      "clean": ["phpcbf --standard=PSR2 ./src"],
+      "test": [
+        "phpcs --standard=PSR2 ./src",
+        "phpunit --colors=always --configuration phpUnit.xml"
+      ]
     },
     "autoload": {
         "psr-4": {
@@ -23,6 +28,10 @@
     }
   },
   "minimum-stability": "dev",
+  "repositories": [{
+    "type": "git",
+    "url": "https://github.com/nicolas-lou/ComposerTesting"
+  }],
     "require": {
 
     },

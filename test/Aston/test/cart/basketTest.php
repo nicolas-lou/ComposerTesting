@@ -36,7 +36,7 @@ class basketTest extends TestCase
         $b->removeProduct($milk);
         $b->addProduct($nutella);
         $this->assertEquals(3,$b->count());
-        $this->assertEquals(1,$b->QuantityProduct($water));
+        $this->assertEquals(1,$b->quantityProduct($water));
     }
 
     public function testRemoveProduct(){
@@ -80,7 +80,7 @@ class basketTest extends TestCase
         $nutella = new Product(5,"nutella",4.5);
         $b->addProduct($milk);
         $b->addProduct($nutella);
-        $this->assertEquals(3,$b->setQuantity($nutella, 3)->QuantityProduct($nutella));
+        $this->assertEquals(3,$b->setQuantity($nutella, 3)->quantityProduct($nutella));
 
     }
 

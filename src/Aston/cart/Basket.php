@@ -26,7 +26,7 @@ class Basket implements \Countable
 
     public function addProduct(Product $product): Basket
     {
-        if(!array_key_exists($product->getId(),$this->BasketProducts)){
+        if (!array_key_exists($product->getId(), $this->BasketProducts)) {
             $this->BasketProducts[$product->getId()]= $product;
             $this->quantity[$product->getId()]=0;
         }
@@ -38,30 +38,31 @@ class Basket implements \Countable
 
     public function removeProduct(Product $product)
     {
-        if(array_key_exists($product->getId(),$this->BasketProducts)){
-            if($this->quantity[$product->getId()]==1){
+        if (array_key_exists($product->getId(), $this->BasketProducts)) {
+            if ($this->quantity[$product->getId()]==1) {
                 unset($this->quantity[$product->getId()]);
                 unset($this->BasketProducts[$product->getId()]);
-            }else{
+            } else {
                 $this->quantity[$product->getId()]--;
             }
         }
         return $this;
-
     }
 
     /**
      * @param Product $product
      * @return bool
      */
-    public function hasProduct(Product $product):bool{
-        return array_key_exists( $product->getId(),$this->BasketProducts);
+    public function hasProduct(Product $product):bool
+    {
+        return array_key_exists( $product->getId(), $this->BasketProducts);
     }
 
     /**
      * @return $this
      */
-    public function reset():Basket{
+    public function reset():Basket
+    {
         $this->BasketProducts = [];
         $this->quantity= [];
         return $this;
@@ -71,7 +72,8 @@ class Basket implements \Countable
      * @param Product $produit
      * @return $this
      */
-    public function clearProduct(Product $produit):Basket{
+    public function clearProduct(Product $produit):Basket
+    {
         unset($this->BasketProducts[$produit->getId()]);
         unset($this->quantity[$produit->getId()]);
         return $this;
@@ -101,7 +103,8 @@ class Basket implements \Countable
      * @param Product $product
      * @return $this
      */
-    public function setProduct(Product $product):Basket{
+    public function setProduct(Product $product):Basket
+    {
         $this->BasketProducts[$product->getId()]= $product;
         return $this;
     }
@@ -111,7 +114,7 @@ class Basket implements \Countable
      * @param Product $produit
      * @return $this
      */
-    public function setQuantity(Product $produit,  $qty):Basket
+    public function setQuantity(Product $produit, $qty):Basket
     {
         $this->quantity[$produit->getId()]= $qty;
         return $this;
@@ -131,10 +134,9 @@ class Basket implements \Countable
         return count($this->BasketProducts);
     }
 
-    public function QuantityProduct(Product $product){
+    public function quantityProduct(Product $product)
+    {
 
             return $this->quantity[$product->getId()];
-
-
     }
 }
