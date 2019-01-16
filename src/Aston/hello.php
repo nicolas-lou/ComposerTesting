@@ -8,22 +8,22 @@
 
 namespace Aston;
 
-
-class hello
+class Hello
 {
     public function sayHello()
     {
-       return "hello world";
+        return "hello world";
     }
-    public  function SayFalse($nb1,$nb2){
-        if($nb1+$nb2>20){
+    public function sayFalse($nb1, $nb2)
+    {
+        if ($nb1+$nb2>20) {
             return true;
-        }else{
+        } else {
             return false;
         }
     }
-    public function TabHello(){
+    public function tabHello()
+    {
         return [1,2,3,4];
     }
-
 }

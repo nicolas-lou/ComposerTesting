@@ -1,61 +1,100 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: dev
- * Date: 14/01/19
- * Time: 15:36
- */
+
 
 namespace Aston\cart;
 
-
-class product
+class Product
 {
-   private $label=null;
-   private $price = null;
-   private $qty = null;
+    /**
+     * @var mixed
+     */
+    private $id;
+    /**
+     * @var string
+     */
+    private $label;
+    /**
+     * @var float
+     */
+    private $price ;
 
-    public function __construct($label, $price, $qty ){
+
+
+    /**
+     * Product constructor.
+     * @param $id
+     * @param $label
+     * @param $price
+     */
+    public function __construct($id,$label, $price)
+    {
+        $this->id = $id;
         $this->label = $label;
         $this->price = $price;
-        $this->qty = $qty;
+
     }
 
     /**
-     * @return null
+     * @return mixed
      */
-    public function getLabel()
+    public function getId()
+    {
+        return $this->id;
+    }
+
+    /**
+     * @param mixed $id
+     * @return Product
+     */
+    public function setId($id)
+    {
+        $this->id = $id;
+        return $this;
+    }
+
+    /**
+     * @return string
+     */
+    public function getLabel(): string
     {
         return $this->label;
     }
 
     /**
-     * @return null
+     * @param string $label
+     * @return Product
      */
-    public function getPrice()
+    public function setLabel(string $label): Product
+    {
+        $this->label = $label;
+        return $this;
+    }
+
+    /**
+     * @return float
+     */
+    public function getPrice(): float
     {
         return $this->price;
     }
 
     /**
-     * @return null
+     * @param float $price
+     * @return Product
      */
-    public function getQty()
+    public function setPrice(float $price): Product
     {
-        return $this->qty;
+        $this->price = $price;
+        return $this;
     }
+
+
 
     /**
-     * @param null $qty
+     * @return string
      */
-    public function setQty($qty): void
+    public function __toString()
     {
-        $this->qty = $qty;
+        return $this->label;
     }
-
-
-
-
-
-
 }

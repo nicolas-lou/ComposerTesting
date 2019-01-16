@@ -24,6 +24,6 @@ class helloTest extends TestCase
         $hello = new hello();
         $this->assertEquals(false,$hello->SayFalse(10,9));
         $this->assertContains(2, $hello->TabHello());
-
+        $this->assertEquals(true, $hello->sayFalse(11,11));
     }
 }
