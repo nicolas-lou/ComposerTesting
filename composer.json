@@ -1,5 +1,6 @@
 {
     "name": "aston/cart",
+  "version": "1.0.0",
     "description": "Shoppring cart",
     "type": "library",
     "license": "MIT",
@@ -27,7 +28,7 @@
         "Aston\\": "test/Aston"
     }
   },
-  "minimum-stability": "dev",
+  "minimum-stability": "stable",
   "repositories": [{
     "type": "git",
     "url": "https://github.com/nicolas-lou/ComposerTesting"

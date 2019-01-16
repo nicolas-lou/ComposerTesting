@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b723b2b5-6800-4f70-819d-b255e519e4ae" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/phpUnit.xml" beforeDir="false" afterPath="$PROJECT_DIR$/phpUnit.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Aston/cart/Basket.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aston/cart/Basket.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Aston/cart/Product.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aston/cart/Product.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/Aston/test/cart/basketTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/test/Aston/test/cart/basketTest.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,8 +19,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/composer.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="215">
-              <caret line="29" column="29" lean-forward="true" selection-start-line="29" selection-start-column="29" selection-end-line="29" selection-end-column="29" />
+            <state relative-caret-position="30">
+              <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -270,7 +267,7 @@
       <workItem from="1547457362709" duration="6719000" />
       <workItem from="1547474014079" duration="6537000" />
       <workItem from="1547539818895" duration="19842000" />
-      <workItem from="1547626572972" duration="6420000" />
+      <workItem from="1547626572972" duration="7028000" />
     </task>
     <servers />
   </component>
@@ -307,7 +304,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39518000" />
+    <option name="totallyTimeSpent" value="40126000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="925" extended-state="6" />
@@ -482,8 +479,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/composer.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="29" column="29" lean-forward="true" selection-start-line="29" selection-start-column="29" selection-end-line="29" selection-end-column="29" />
+        <state relative-caret-position="30">
+          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
         </state>
       </provider>
     </entry>
