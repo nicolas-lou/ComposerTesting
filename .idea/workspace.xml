@@ -18,8 +18,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/composer.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="31" column="23" selection-start-line="31" selection-start-column="23" selection-end-line="31" selection-end-column="23" />
+            <state relative-caret-position="315">
+              <caret line="36" column="6" selection-start-line="36" selection-start-column="6" selection-end-line="36" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -266,7 +266,7 @@
       <workItem from="1547457362709" duration="6719000" />
       <workItem from="1547474014079" duration="6537000" />
       <workItem from="1547539818895" duration="19842000" />
-      <workItem from="1547626572972" duration="8153000" />
+      <workItem from="1547626572972" duration="8234000" />
     </task>
     <servers />
   </component>
@@ -303,7 +303,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41251000" />
+    <option name="totallyTimeSpent" value="41332000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="236" y="32" width="1484" height="908" extended-state="0" />
@@ -478,8 +478,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/composer.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="31" column="23" selection-start-line="31" selection-start-column="23" selection-end-line="31" selection-end-column="23" />
+        <state relative-caret-position="315">
+          <caret line="36" column="6" selection-start-line="36" selection-start-column="6" selection-end-line="36" selection-end-column="6" />
         </state>
       </provider>
     </entry>
